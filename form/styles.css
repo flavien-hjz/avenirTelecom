@@ -1,0 +1,55 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 375px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: inline-block;
+  width: 110px;
+  text-align: right;
+}
+
+input {
+  margin: 10px;
+  width: 200px;
+  height: 25px;
+  border: solid 1px #90B975;
+}
+
+input:focus, select:focus {
+  outline: none;
+}
+
+select {
+  color: green;
+  margin: 10px;
+  width: 206px;
+  height: 29px;
+  border: solid 1px #90B975;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button {
+  font-size: 16px;
+  width: 206px;
+  height: 29px;
+  color: white;
+  background-color: green;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+  background-color: rgb(1, 105, 1);
+}
+
+.button:active {
+  transform: scale(0.95);
+}

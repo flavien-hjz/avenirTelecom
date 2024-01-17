@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Avenir Télécom - Formulaire de contact</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+  </head>
+  
+    <body>
+
+      <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DWx0000000SnV" method="POST">
+      
+        <input type=hidden name="oid" value="00DWx0000000SnV">
+        <input type=hidden name="retURL" value="http://127.0.0.1:59130/form.html">
+        
+        <img src="logo.jpg">
+
+        <div class="box">
+          <div>
+            <label class="label" for="last_name">Nom :</label><input  id="last_name" maxlength="80" name="last_name" type="text" required />
+
+            <label class="label" for="company">Société :</label><input  id="company" maxlength="40" name="company" type="text" required />
+          </div>
+
+          <div>      
+            <label class="label" for="first_name">Prénom :</label><input  id="first_name" maxlength="40" name="first_name" type="text" required/>
+
+            <label class="label">Offre :</label>
+              <select  id="00NWx0000000EWH" name="00NWx0000000EWH" title="Product Interest">
+                <option value="">--None--</option>
+                <option value="GC1000 series">GC1000 series</option>
+                <option value="GC5000 series">GC5000 series</option>
+                <option value="GC3000 series">GC3000 series</option>
+              </select>
+          </div>
+
+          <div>
+            <label class="label" for="email">Adresse mail :</label><input  id="email" maxlength="80" name="email" type="text" />
+          </div>
+            
+          <div>
+            <label class="label" for="phone">Téléphone :</label><input  id="phone" maxlength="40" name="phone" type="text" />
+            <div class="label"></div>
+
+            <input class="button" type="submit" name="submit" value="Soumettre">
+          </div>
+        </div>
+      </form>
+    </body>
+  </html>

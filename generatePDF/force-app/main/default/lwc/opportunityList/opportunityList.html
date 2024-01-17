@@ -1,0 +1,9 @@
+<template>
+  <lightning-card title="Opportunities" icon-name="standard:opportunity">
+    <lightning-layout multiple-rows="true" vertical-align="end">
+      <lightning-layout-item size="12" padding="around-small">
+        <lightning-datatable key-field="id" data={opportunities.data} columns={cols}></lightning-datatable>
+      </lightning-layout-item>
+    </lightning-layout>
+  </lightning-card>
+</template>
